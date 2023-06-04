@@ -2089,10 +2089,14 @@ body {
           align-items: center;
   background-color: #3671e9;
   border-radius: 50pc;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1rem;
+  min-height: 3.25rem;
+  padding: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
   -webkit-transition: 0.3s ease 0s;
   -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
-  padding: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
 }
 
 .item-trade-securely__btn-wrapper span {
@@ -2918,6 +2922,10 @@ body {
   }
 
   .item-trade-securely__btn-wrapper {
+    min-height: 2.375rem;
+  }
+
+  .item-trade-securely__btn-wrapper {
     padding-top: 0.5rem;
   }
 
@@ -3251,6 +3259,10 @@ body {
 
   .trade-securely__title:not(:last-child) {
     margin-bottom: calc(2.125rem + 30 * (100vw - 20rem) / 910);
+  }
+
+  .item-trade-securely__btn-wrapper {
+    min-height: calc(2.375rem + 14 * (100vw - 20rem) / 910);
   }
 
   .item-trade-securely__btn-wrapper {
