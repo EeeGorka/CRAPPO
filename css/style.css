@@ -3545,7 +3545,7 @@ body {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
-    max-width: 22.1875rem;
+    width: 22.1875rem;
   }
 
   .footer__column-menu {
@@ -3793,7 +3793,7 @@ body {
 
   .footer__column:nth-child(3) {
     grid-row: none;
-    max-width: none;
+    width: 100%;
   }
 
   .footer__column-menu {
