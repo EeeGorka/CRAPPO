@@ -2092,6 +2092,7 @@ body {
   -webkit-transition: 0.3s ease 0s;
   -o-transition: 0.3s ease 0s;
   transition: 0.3s ease 0s;
+  padding: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
 }
 
 .item-trade-securely__btn-wrapper span {
@@ -2717,12 +2718,6 @@ body {
   transition: 0.3s ease 0s;
 }
 
-@media (min-width: 75em) {
-  .item-trade-securely__btn-wrapper {
-    padding: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
-  }
-}
-
 @media (max-width: 65em) {
   .footer__body {
     -ms-grid-columns: 9.375rem auto 16.25rem;
@@ -2920,6 +2915,22 @@ body {
 
   .trade-securely__title:not(:last-child) {
     margin-bottom: 2.125rem;
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-top: 0.5rem;
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-bottom: 0.5rem;
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-right: 1.125rem;
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-left: 1.125rem;
   }
 
   .guide {
@@ -3240,6 +3251,22 @@ body {
 
   .trade-securely__title:not(:last-child) {
     margin-bottom: calc(2.125rem + 30 * (100vw - 20rem) / 910);
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-top: calc(0.5rem + 7 * (100vw - 20rem) / 910);
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-bottom: calc(0.5rem + 7 * (100vw - 20rem) / 910);
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-right: calc(1.125rem + -3 * (100vw - 20rem) / 910);
+  }
+
+  .item-trade-securely__btn-wrapper {
+    padding-left: calc(1.125rem + -3 * (100vw - 20rem) / 910);
   }
 
   .guide {
@@ -3996,42 +4023,6 @@ body {
   .massege-main__title {
     width: 100%;
     text-align: center;
-  }
-}
-
-@media (min-width: 75em) and (max-width: 76.875em) {
-  .item-trade-securely__btn-wrapper {
-    padding-top: calc(0.5rem + 7 * (100vw - 20rem) / 910);
-  }
-
-  .item-trade-securely__btn-wrapper {
-    padding-bottom: calc(0.5rem + 7 * (100vw - 20rem) / 910);
-  }
-
-  .item-trade-securely__btn-wrapper {
-    padding-right: calc(1.125rem + -3 * (100vw - 20rem) / 910);
-  }
-
-  .item-trade-securely__btn-wrapper {
-    padding-left: calc(1.125rem + -3 * (100vw - 20rem) / 910);
-  }
-}
-
-@media (min-width: 75em) and (max-width: 20em) {
-  .item-trade-securely__btn-wrapper {
-    padding-top: 0.5rem;
-  }
-
-  .item-trade-securely__btn-wrapper {
-    padding-bottom: 0.5rem;
-  }
-
-  .item-trade-securely__btn-wrapper {
-    padding-right: 1.125rem;
-  }
-
-  .item-trade-securely__btn-wrapper {
-    padding-left: 1.125rem;
   }
 }
 
